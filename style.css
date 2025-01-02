@@ -273,6 +273,7 @@ body {
 }
 
 .global-header--nav{
+  height:100%;
   margin-top: auto;
   margin-bottom:auto;
   font-size:var(--fs-200);
@@ -418,8 +419,8 @@ body {
     padding:1rem;
     background-color: var(--clr-neutral-100);
     .article-avatar-icon{
-      width:2.5rem;
-      height:2.5rem;
+      width:1.5rem;
+      height:2.0rem;
     }
     img{
       aspect-ratio: 1/1.2;
@@ -455,6 +456,9 @@ body {
       text-align:center;
     }
     .card-footer{
+      img{
+        float:left;
+      }
       a{
         font-size:var(--fs-200);
       }
