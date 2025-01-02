@@ -430,6 +430,17 @@ body {
       display:flex;
       flex-wrap:wrap;
       padding:0.2rem;
+      .sunloving{background-color: var(--clr-sunloving);}
+      .flower{background-color: var(--clr-flower);}
+      .edible{background-color: var(--clr-edible);}
+      .green{background-color: var(--clr-green);}
+      .easy{background-color: var(--clr-easy);}
+      .decorative{background-color: var(--clr-decorative);}
+      .robust{background-color: var(--clr-robust);}
+      .colorful{background-color: var(--clr-colorful);}
+      .fragrant{background-color: var(--clr-fragrant);}
+      .air{background-color: var(--clr-air);}
+      .fast{background-color: var(--clr-fast);}
     }
     .tag{
       margin:1px;
