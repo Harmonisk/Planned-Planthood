@@ -12,7 +12,7 @@
       <header class="global-site--header"> <!--Start global header-->
         <div class="content-wrapper header-wrapper"> <!--Start global header wrapper-->
           <div class="global-logo">
-            <img src="Assets/images/logo.svg" alt="Planned Planthood logo" />
+            <img src="Assets/images/logo-header.svg" alt="Planned Planthood logo" />
             <h1>PLANNED<br/>PLANTHOOD</h1>
           </div>
           <nav class="global-header--nav">
@@ -23,7 +23,7 @@
               <li><a href="#">KONTAKT</a></li>
             </ul>
           </nav>
-          <img class="global-header-hamburger-icon" src="Assets/images/placeholder-avatar.jpg" alt="hamburger menu" />
+          <img class="global-header-hamburger-icon" src="Assets/images/hamburger-menu-icon.svg" alt="hamburger menu" />
         </div> <!--End global header wrapper-->
       </header> <!--End global header-->
 
@@ -48,8 +48,8 @@
             <div class="content-wrapper newsletter-hero"> <!--Start newsletter hero wrapper-->
               <h2>Anmäl dig till vårt nyhetsbrev så du inte missar en utsådd!</h2>
               <form class="newsletter-hero--form">
-                <label for="newletter-email">email@domain.com</label>
-                <input type="email" id="newsletter-email" name="newsletter-email" placeholder="email@domain.com">
+                <label for="newletter-email" class="visually-hidden" id="form-label">email@domain.com</label>
+                <input type="email" id="newsletter-email" name="newsletter-email" placeholder="email@domain.com" aria-labelledby="form-label">
                 <button>SKICKA</button>
               </form>
                 <img src="Assets/images/icon-planting.svg" alt="planting seeds icon"/>
@@ -283,7 +283,7 @@
         <div class="content-wrapper footer-wrapper"> <!--Start global footer wrapper-->
           <section class="footer-contact"> <!--Start contact information-->
             <div class="global-logo">
-              <img class="footer-icon" src="Assets/images/logo.svg" alt="Planned Planthood logo" />
+              <img class="footer-icon" src="Assets/images/logo-footer.svg" alt="Planned Planthood logo" />
               <h2>PLANNED<br>PLANTHOOD</h2>
             </div>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, veniam ducimus aut sint atque ullam alias perspiciatis fuga. Consequuntur nesciunt ea corrupti aperiam fugit inventore ratione earum. Iure, eius molestias?</p>
