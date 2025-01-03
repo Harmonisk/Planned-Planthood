@@ -163,7 +163,7 @@ h1{
 }
 
 h2 {
-  font-size: var(--fs-500);
+  font-size: var(--fs-700);
 }
 
 h3 {
@@ -184,6 +184,7 @@ a {
 
 p{
   font-size:var(--fs-300);
+  font-weight: var(--fw-regular);
 }
 
 li{
@@ -266,13 +267,12 @@ body {
   display:flex;
   font-weight: var(--fw-700);
   img{
-    /* background-color:var(--clr-green-400); */
-    width:1.5rem;
-    height:1.5rem;
-    display:inline;
+    width:2.5rem;
+    height:3rem;
     margin-right:0.8rem;
   }
   h1,h2{
+    font-size: var(--fs-500);
     display: inline;
     margin-top:auto;
     margin-bottom:auto;
@@ -299,6 +299,7 @@ body {
     justify-self:center;
     align-self:center;
     a{
+      font-size: var(--fs-500);
       height:100%;
       width:100%;
     }
@@ -326,7 +327,7 @@ body {
 .global-header-hamburger-icon:hover{
   filter:none;
   background-color:var(--clr-accent);
-  /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(90deg) brightness(100%) contrast(104%); */
+
 }
 
 @media (width<=1200px){
@@ -350,9 +351,11 @@ body {
   text-align: center;
 
   h2{
+    font-size: var(--fs-700);
     grid-column:1/-1;
   }
   p{
+
     grid-column:1/-1;
     margin:auto;
   }
@@ -508,8 +511,13 @@ body {
     padding:1rem;
     background-color: var(--clr-neutral-100);
     .article-avatar-icon{
-      width:1.5rem;
-      height:2.0rem;
+      width:3rem;
+      height:3rem;
+      border:1px solid var(--clr-primary);
+      border-radius:50%;
+    }
+    h2{
+      font-size: var(--fs-600);
     }
     img{
       aspect-ratio: 1/1.2;
@@ -547,13 +555,16 @@ body {
     .card-footer{
       img{
         float:left;
+        margin-right:0.3rem;
       }
       a{
         font-size:var(--fs-200);
+        color:var(--clr-primary);
+        font-weight: var(--fw-bold);
       }
       time{
         display:block;
-        font-size:var(--fs-100);
+        font-size:var(--fs-200);
       }
     }
   }
@@ -643,12 +654,11 @@ body {
   .global-logo{
     margin-bottom:1rem;
     h2{
-      font-size:small;
+      font-size:var(--fs-400);
     }
   }
   
   p{
-    font-size:smaller;
     margin-bottom:1rem;
   }
   a{
